@@ -221,7 +221,7 @@ print(classification_report(true_labels, predicted_gmm))
 
 ```
 Unit_1_Data_Colocating_S2_S3.ipynb
-Unsupervised_Learning_Week_4.ipynb
+Unit_2_Unsupervised_Learning_Methods_updated.ipynb
 outputs/
 ```
 
