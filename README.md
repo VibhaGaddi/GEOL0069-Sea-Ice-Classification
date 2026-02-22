@@ -56,7 +56,7 @@ K-Means is a simple unsupervised algorithm that partitions data into **K cluster
 
 **Why K-Means?**
 
-- Useful for initial exploratory clustering  
+- Useful for initial exploration of clusters 
 - Fast and scalable  
 - Works well when clusters are roughly spherical and separable
 
@@ -64,8 +64,6 @@ K-Means is a simple unsupervised algorithm that partitions data into **K cluster
 
 - **Choosing K** – Number of clusters must be set in advance  
 - **Centroid Initialization** – Starting positions affect results  
-- **Assignment Step** – Assign points to nearest centroid  
-- **Update Step** – Update centroid positions based on cluster members
 
 K-Means yields **hard cluster assignments**, which is useful for simple segmentation but does not include uncertainty information.
 
@@ -136,7 +134,7 @@ std_ice = np.std(ice_waves, axis=0)
 
 # Results & Visualisation
 
-## 1️⃣ Average Echo Shapes
+## Echo Shapes
 
 ```python
 import matplotlib.pyplot as plt
@@ -161,7 +159,7 @@ plt.show()
 <img width="572" height="435" alt="Image" src="https://github.com/user-attachments/assets/11ecf47a-a724-4f3a-8972-e9e8cb3e85fb" />
 
 ---
-## Classification Scatter Plot
+## Scatter Plot
 
 The following plot visualises the clustering of radar features using a Gaussian Mixture Model (GMM).  
 - `data_cleaned[:,0]` → Backscatter (\(\sigma^0\))  
