@@ -255,6 +255,6 @@ https://cpomucl.github.io/GEOL0069-AI4EO/Unit_2_Unsupervised_Learning_Methods_up
 
 ---
 
-**Author:** [Your Name]  
+**Author:** Vibha Gaddi
 **Course:** GEOL0069 – AI for Earth Observation  
 **Institution:** UCL
